@@ -17,10 +17,17 @@
 	<description>Californium (Cf) simple server example</description>
 
 	<properties>
-		<assembly.mainClass>com.wizehack.test.coap.Server</assembly.mainClass>
+		<assembly.mainClass>com.wizehack.test.coap.Main</assembly.mainClass>
 	</properties>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>californium-core</artifactId>
